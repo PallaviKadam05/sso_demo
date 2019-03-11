@@ -3,5 +3,6 @@ class ApplicationController < ActionController::Base
 	before_action :authenticate_user!
 
 	def test
+		"This is a test" 
 	end
 end
