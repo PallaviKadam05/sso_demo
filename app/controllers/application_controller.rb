@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
 	before_action :authenticate_user!
 
 	def test
-		"This is a test"+"conflict check pinku"1+"tes" 
+		"This is a test"+"conflict check pinku"1+"tes1233" 
 	end
 end
